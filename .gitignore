@@ -1,0 +1,22 @@
+node_modules
+config/production.json
+config/default.json
+client/build
+client/.eslintcache
+
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
